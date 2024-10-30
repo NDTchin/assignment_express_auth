@@ -41,4 +41,4 @@ const permissionMiddleware = (requiredPermission) => {
     };
 };
 
-module.exports = { authenticateToken, permissionMiddleware };
+module.exports = { authenticateToken, permissionMiddleware, };
